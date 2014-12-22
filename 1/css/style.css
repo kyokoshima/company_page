@@ -1,0 +1,19 @@
+.body-wrapper {
+	margin: 0 auto;
+	width: 970px;
+}
+
+header {
+}
+
+.main {
+}
+
+.nav-top ul {
+	list-style: none;
+	clear: both;
+}
+
+.nav-top ul li {
+	float: left;
+}
