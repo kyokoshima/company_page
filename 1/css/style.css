@@ -6,14 +6,107 @@
 header {
 }
 
+header > div {
+	float: left;
+}
+
+img {
+	border: none;
+	border-width: 0;
+}
 .main {
+}
+
+.nav-top {
+	background: #e7e7e7;
 }
 
 .nav-top ul {
 	list-style: none;
 	clear: both;
+	height: 60px;
+	text-align: center;
+	padding: 0;
 }
 
 .nav-top ul li {
 	float: left;
+	/*display: inline;*/
+	width: 20%;
+	/*background: #ccc;*/
+	height: 60px;
+}
+
+.nav-top ul li a {
+	height: 60px;
+}
+
+
+.phone-number {
+	font-family: 'Acme', sans-serif;
+	font-size: 28pt;
+}
+
+.inquiry {
+	float: right;
+}
+
+.inquiry .business-hours {
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.btn {
+	text-decoration: none;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: #ff0000;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.topleft {
+	width: 66%;
+	float: left;
+}
+
+.topright {
+	width: 33%;
+	float: right;
+	text-align: center;
+}
+
+.topright hr {
+	margin: 0;
+	padding: 0;
+}
+
+.topright p {
+	font-size: 12px;
+}
+
+.topright .btn-inquiry {
+	height: 65px;
+	background: url(../../images/btn-inquiry.gif) no-repeat;
+	cursor: pointer;
+}
+
+.topright .btn-inquiry:hover {
+	background: url(../../images/btn-inquiry_on.gif) no-repeat;
+}
+
+footer {
+}
+
+footer ul {
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+footer ul li {
+	float: left;
+	display: inline-block;
 }
