@@ -1,45 +1,204 @@
-.body-wrapper {
-	margin: 0 auto;
-	width: 970px;
+* {
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
-header {
-}
-
-header > div {
-	float: left;
+body {
+	margin: 0;
 }
 
 img {
 	border: none;
 	border-width: 0;
 }
-.main {
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.inner {
+	margin: 0 auto;
+	width: 970px;
+}
+
+header {
+	width: 100%;
+	background-color: #DEDFD9;
+}
+
+/*header > div {
+	float: left;
+}*/
+
+/*ナビ*/
 .nav-top {
-	background: #e7e7e7;
+	width: 100%;
+	border-radius: 5px;
 }
 
 .nav-top ul {
 	list-style: none;
 	clear: both;
-	height: 60px;
+	height: 50px;
 	text-align: center;
 	padding: 0;
+	margin: 0;
 }
 
 .nav-top ul li {
 	float: left;
-	/*display: inline;*/
-	width: 20%;
-	/*background: #ccc;*/
-	height: 60px;
+	width: 190px;
+	height: 48px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.nav-top ul li:hover {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
 }
 
 .nav-top ul li a {
-	height: 60px;
+	color: #555;
+	display: block;
+	padding: 15px 0;
+	text-decoration: none;
 }
+
+.nav-top ul li a:hover {
+	color: #333;
+}
+
+
+.main {
+	width: 100%;
+}
+
+/*サイドバー*/
+.main .sidebar {
+	width: 24%;
+	float: left;
+}
+
+.main .sidebar section {
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+.main .sidebar section h2 {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.main .sidebar ul {
+	list-style: none;
+	padding: 10px;
+	margin: 0;
+}
+
+.main .sidebar ul li {
+	border-bottom: 1px dotted #eee;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.main .sidebar ul li a {
+	text-decoration: none;
+	color: #555;
+	padding-left: 5px;
+}
+
+.main .sidebar ul li:hover {
+	background-color: #eee;
+	color: #333;
+}
+
+.main .sidebar .inquiry {
+	background: url('../../images/operator.jpg') no-repeat;
+	width: 100%;
+	height: 300px;
+}
+
+.main .sidebar .inquiry .text-center {
+	position: relative;
+	bottom: -70%;
+	width: 100%;
+	text-align: center;
+}
+
+.main .content {
+	width: 75%;
+	float: right;
+}
+
+.main .content h3 {
+	border-left: 10px solid #ddd;
+	padding: 5px 10px;
+	font-size: 14px;
+	border-bottom: 1px solid #ddd;
+}
+
+.content-text {
+	width: 55%;
+}
+
+.content-image {
+	width: 35%;
+}
+.content-left {
+	float: left;
+}
+.content-right {
+	float: right;
+}
+
+.content-block {
+	width: 100%;
+}
+
+.step {
+	margin: 0 auto;
+}
+.step span {
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+
+.bar-color {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */	
+}
+
+.bar-hover:hover {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */	
+}
+
+
 
 
 .phone-number {
@@ -85,28 +244,69 @@ img {
 
 .topright p {
 	font-size: 12px;
+	margin: 0;
 }
 
 .topright .btn-inquiry {
 	height: 65px;
 	background: url(../../images/btn-inquiry.gif) no-repeat;
 	cursor: pointer;
+	margin: 0 auto;
+	background-position: top center;
 }
 
 .topright .btn-inquiry:hover {
 	background: url(../../images/btn-inquiry_on.gif) no-repeat;
+	background-position: top center;
 }
 
 footer {
+	text-align: center;
+	width: 100%;
+	background-color: #DEDFD9;
+	padding: 15px 0;
 }
 
 footer ul {
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+	display: block;
+	height: 30px;
 }
 
 footer ul li {
 	float: left;
 	display: inline-block;
+}
+
+footer ul li a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+
+footer ul li a i {
+	padding: 0 5px;
+}
+
+footer p.copyright {
+	font-size: 14px;
+	color: #333;
+}
+
+#page-top {
+	display: none;
+	position: fixed;
+	font-size: 12px;
+	right: 50px;
+	bottom: 10px;
+	background-color: #004D72;
+	font-weight: bold;
+}
+
+#page-top a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
 }

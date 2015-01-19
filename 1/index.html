@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>サンプル</title>
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
 	<!--[if lt IE 9]>
@@ -11,9 +11,11 @@
 	<![endif]-->
 </head>
 <body>
-<div class="body-wrapper">
-	<header>
-		<div class="row">
+	<p id="page-top"><a href="">
+	<i class="fa fa-arrow-circle-o-up"></i>
+	このページのトップへ</a></p>
+	<header class="clearfix">
+		<div class="inner">
 			<div class="topleft">
 				<img src="../images/topleft-logo.png" alt="">
 			</div>
@@ -24,36 +26,108 @@
 				<div class="btn-inquiry"></div>
 			</div>
 		</div>
-	</header>
-	<div style="clear: both; float: none;"></div>
-	<nav class="nav-top">
-		<ul>
-			<li><a href="">ナビ1</a></li>
-			<li><a href="">ナビ2</a></li>
-			<li><a href="">ナビ3</a></li>
-			<li><a href="">ナビ4</a></li>
-			<li><a href="">ナビ5</a></li>
-		</ul>
-	</nav>
-	<div class="main">
-		<nav>
+	</header>	
+	<nav class="nav-top bar-color">
+		<div class="inner">
 			<ul>
-				<li><a href="">サイド1</a></li>
-				<li><a href="">サイド2</a></li>
-				<li><a href="">サイド3</a></li>
-				<li><a href="">サイド4</a></li>
-				<li><a href="">サイド5</a></li>
+				<li class="bar-hover"><a href="">ホーム</a></li>
+				<li class="bar-hover"><a href="">代表挨拶</a></li>
+				<li class="bar-hover"><a href="">企業概要</a></li>
+				<li class="bar-hover"><a href="">アクセス</a></li>
+				<li class="bar-hover"><a href="">お問い合わせ</a></li>
 			</ul>
-		</nav>
-		<div class="content">
-			
+		</div>
+	</nav>
+	<div class="banner">
+		<div class="inner">
+			<img src="../images/top-header-bg.jpg" alt="">
+		</div>
+	</div>
+	<div class="main clearfix">
+		<div class="inner">
+			<div class="sidebar">
+				<section>
+					<h2 class="bar-color">サイド1</h2>
+					<ul>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー1</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー2</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー3</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2 class="bar-color">サイド2</h2>
+					<ul>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー1</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー2</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー3</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2 class="bar-color">サイド3</h2>
+					<ul>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー1</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー2</a></li>
+						<li><i class="fa fa-chevron-right"></i><a href="">メニュー3</a></li>
+					</ul>
+				</section>
+				<section class="inquiry">
+					<h2 class="bar-color">お問い合わせ</h2>
+					<div class="text-center">
+						<img src="../images/btn-inquiry-s.png" alt="">
+					</div>
+				</section>
+			</div>
+			<div class="content">
+				<article class="clearfix">
+					<h3>見出し1</h3>
+					<div class="content-text content-left">
+						<p>記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容</p>
+					</div>
+					<div class="content-right content-image">
+						<img src="../images/meeting-1.jpg" alt="">
+					</div>
+				</article>
+				<article class="clearfix">
+					<h3>見出し2</h3>
+					<div class="content-text content-right">
+						<p>記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容記事内容</p>
+					</div>
+					<div class="content-image content-left">
+						<img src="../images/shakehand.jpg" alt="">
+					</div>
+				</article>
+				<article class="clearfix">
+					<h3>ご依頼の流れ</h3>
+					<div class="content-block">
+						<p class="step"><img src="../images/step1.gif" alt="">
+							<span>STEP1</span>
+						</p>
+						<p class="step"><img src="../images/step2.gif" alt=""><span>STEP2</span></p>
+						<p class="step"><img src="../images/step3.gif" alt=""><span>STEP3</span></p>
+						<p class="step"><img src="../images/step4.gif" alt=""><span>STEP4</span></p>
+						<p class="step"><img src="../images/step5.gif" alt=""><span>STEP5</span></p>
+					</div>
+
+				</article>
+			</div>
 		</div>
 	</div>
 	<footer>
-		<ul>
-			<li><a href="">会社概要</a></li>
-		</ul>
+		<div class="inner">
+			<ul>
+				<li><a href=""><i class="fa fa-arrow-circle-right"></i>ホームへ</a></li>
+				<li><a href=""><i class="fa fa-arrow-circle-right"></i>会社概要</a></li>
+				<li><a href=""><i class="fa fa-arrow-circle-right"></i>お客様の声</a></li>
+			</ul>
+			<ul>
+				<li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
+				<li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
+			</ul>
+			<p class="copyright">Copyright (C) 2016 サンプルページ All rights reserved.</p>
+		</div>
 	</footer>
 	</div>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
