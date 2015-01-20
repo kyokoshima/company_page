@@ -38,6 +38,14 @@ header {
 	float: left;
 }*/
 
+header h1 {
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 7px 0 0;
+	border-bottom: 1px dotted #eee;
+}
+
 /*ナビ*/
 .nav-top {
 	width: 100%;
@@ -265,6 +273,29 @@ footer {
 	width: 100%;
 	background-color: #DEDFD9;
 	padding: 15px 0;
+}
+
+footer .footer-menu {
+	width: 50%;
+	float: left;
+}
+
+footer .footer-inquiry {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+footer .footer-inquiry a {
+	float: right;
+	display: block;
+	background: url(../../images/button-inquiry-sprite.gif) no-repeat left top;
+	height: 50px;
+	width: 250px;
+}
+
+footer .footer-inquiry a:hover {
+	background-position: left bottom;
 }
 
 footer ul {

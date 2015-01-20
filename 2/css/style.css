@@ -1,0 +1,187 @@
+body {
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+.header {
+	width: 100%;
+}
+
+.header h1 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding: 7px 0;
+}
+
+.header .heading {
+	background-color: #60afd6;
+	color: #fefefe;
+}
+
+.header .body {
+	background-color: #fefefe;
+	padding: 10px;
+}
+
+.header .inner,
+.main .inner,
+.footer .inner  {
+	width: 970px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header .body .logo {
+	float: left;
+}
+
+.header .body .inquiry {
+	float: right;
+	text-align: right;
+}
+
+a.btn-mail {
+	height: 35px;
+	width: 230px;
+	background: url(../img/btn-mail-sp.gif) no-repeat left top;
+	display: block;
+}
+
+a.btn-mail:hover {
+	background-position: left bottom;
+};
+
+.pull-right {
+	text-align: right;
+	float: right;
+}
+
+.main .banner {
+	background: url(../img/banner-bg.jpg) no-repeat;
+	height: 300px;
+}
+
+ul.nav {
+	list-style: none;
+}
+.nav li {
+	width: 150px;
+	height: 50px;
+	background: url(../img/g-nav-sp.gif) no-repeat;
+	float: left;
+}
+
+
+li.office {	background-position: left top; }
+li.price {	background-position: -150px top; }
+li.flow  {	background-position: -300px top; }
+li.voice {	background-position: -450px top; }
+li.faq   {	background-position: -600px top; }
+li.inq   {	background-position: -750px top; }
+li.office:hover {	background-position: left bottom; }
+li.price:hover 	{	background-position: -150px bottom; }
+li.flow:hover  	{	background-position: -300px bottom; }
+li.voice:hover 	{	background-position: -450px bottom; }
+li.faq:hover   	{	background-position: -600px bottom; }
+li.inq:hover  	{	background-position: -750px bottom; }
+
+.main .sidebar {
+	float: left;
+	width: 20%;
+	margin-right: 20px;
+}
+
+.main .contents {
+	float: right;
+	width: 75%;
+}
+
+.main .contents .content h2 {
+	font-size: 16px;
+	background: #60afd6;
+	padding: 10px 10px;
+	color: #fefefe;
+}
+
+.main .contents .content i {
+	margin-right: 5px;
+}
+
+.main .contents .content ul {
+	list-style: square;
+}
+
+
+
+.main .sidebar .content {
+	margin-bottom: 20px;
+}
+
+
+
+.main .sidebar .content h2 {
+	font-size: 14px;
+	font-weight: normal;
+	background: #fff;
+	border-left: 7px solid #60afd6 ;
+	border-bottom: 1px solid #60afd6;
+	padding: 10px 10px;
+	margin: 0;
+}
+.main .sidebar .content ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main .sidebar .content ul li {
+	padding: 20px;
+	border: 1px dotted #ddd;
+	color: #555;
+	font-size: 14px;
+}
+
+.main .sidebar .content ul li:hover {
+	background: #fdfdf0;
+}
+
+.main .sidebar .content ul li a {
+	text-decoration: none;
+	color: #555;
+	padding: 5px 7px;
+}
+
+.main .sidebar .content ul li i {
+	float: right;
+}
+
+.main .sidebar .content p {
+	font-size: 14px;
+	color: #333;
+}
+
+.footer {
+	background: #f2f2f2;
+	color: #555;
+	font-size: 12px;
+}
+
+.footer .panel {
+	float: left;
+	width: 30%;
+}
+
+.footer .panel .panel-title {
+	/*font-size: 12px;*/
+	font-weight: normal;
+	padding: 0;
+	border-bottom: #ddd;
+}
+
+.footer .bottom-block {
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
