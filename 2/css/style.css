@@ -1,3 +1,7 @@
+* {
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
 body {
 	margin: 0;
 }
@@ -40,7 +44,9 @@ img {
 
 .header .body .inquiry {
 	float: right;
-	text-align: right;
+	text-align: center;
+	position: relative;
+	height: 100px;
 }
 
 a.btn-mail {
@@ -48,6 +54,7 @@ a.btn-mail {
 	width: 230px;
 	background: url(../img/btn-mail-sp.gif) no-repeat left top;
 	display: block;
+	margin: 0 auto;
 }
 
 a.btn-mail:hover {
@@ -60,8 +67,9 @@ a.btn-mail:hover {
 }
 
 .main .banner {
-	background: url(../img/banner-bg.jpg) no-repeat;
+	background: url(../img/banner-bg-2.jpg) no-repeat;
 	height: 300px;
+	margin-bottom: 20px;
 }
 
 ul.nav {
@@ -111,9 +119,18 @@ li.inq:hover  	{	background-position: -750px bottom; }
 }
 
 .main .contents .content ul {
-	list-style: square;
+	list-style: none;
+	padding: 0 20px;
 }
 
+.main .contents .content ul li {
+	padding: 5px;
+	color: #333;
+}
+
+.main .contents .content p {
+	padding: 5px 20px;
+}
 
 
 .main .sidebar .content {
@@ -171,17 +188,30 @@ li.inq:hover  	{	background-position: -750px bottom; }
 
 .footer .panel {
 	float: left;
-	width: 30%;
+	width: 32%;
+	margin-right: 1%;
+	height: 270px;
 }
 
 .footer .panel .panel-title {
 	/*font-size: 12px;*/
 	font-weight: normal;
 	padding: 0;
-	border-bottom: #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.footer .panel .panel-body {
+	position: relative;
+	height: 100%;
 }
 
 .footer .bottom-block {
 	border-top: 1px solid #ccc;
 	text-align: center;
+}
+
+.footer .panel .page-top {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
