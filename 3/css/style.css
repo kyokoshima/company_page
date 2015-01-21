@@ -12,6 +12,12 @@ color
 	margin: 0;
 }
 
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
 .container {
 	width: 100%;
 }
@@ -32,6 +38,17 @@ color
 	padding: 7px 0;
 	/*color: #D6E99A;*/
 	color: #51611E;
+}
+
+.logo {
+	background: url(../img/logo.gif) no-repeat;
+	width: 350px;
+	height: 50px;
+	float: left;
+}
+
+.inquiry {
+	float: right;
 }
 
 .navigation {
