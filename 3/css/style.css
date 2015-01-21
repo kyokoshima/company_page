@@ -1,0 +1,167 @@
+/*
+http://www.colourlovers.com/palette/108476/Tiger_Lily
+color 
+#D6E99A
+#AFC46A
+#81963D
+#51611E
+#51611E
+*/
+
+* {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+.inner {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.header {
+	/*background: #81963D;*/
+	background: #D6E99A;
+}
+
+.header-heading h1 {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 7px 0;
+	/*color: #D6E99A;*/
+	color: #51611E;
+}
+
+.navigation {
+	border-top: 1px solid #333;
+}
+.navigation ul.nav {
+	list-style: none;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul.nav li {
+	display: inline-block;
+	text-align: center;
+	border-bottom: 3px solid transparent;
+}
+
+.navigation ul.nav li:hover {
+	border-bottom: 3px solid #81963D;
+}
+
+/*.navigation .inner {
+	border: 1px solid #333;
+}*/
+
+ul.nav li a {
+	width: 130px;
+	display: block;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: #555;
+}
+
+ul.nav li a:hover {
+	color: #81963D;
+}
+
+.sidebar {
+	width: 25%;
+}
+
+.sidebar .content h2 {
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+	background: #D6E99A;
+	border-left: 5px solid #AFC46A;
+	padding: 15px 15px;
+}
+
+.sidebar .content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.sidebar .content ul li {
+	/*height: 50px;*/
+	padding: 20px 10px;
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+.sidebar .content ul li:hover {
+	background: #ffe;
+}
+
+.sidebar .content ul li a {
+	color: #555;
+	padding: 10px 7px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.sidebar .content ul li i {
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.main .contents {
+	width: 65%;
+}
+
+.footer {
+	background: #D6E99A;
+}
+
+
+.footer .panel {
+	width: 31%;
+	margin-right: 1%;
+	padding: 1% 0;
+	display: inline-block;
+	\display: inline;
+	\zoom: 1;
+	vertical-align: top;
+	overflow: hidden;
+	height: 270px;
+}
+
+.footer .panel .panel-heading .panel-title {
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 1px solid #51611E;
+	margin: .5em;
+}
+
+.footer .panel .panel-body {
+	position: relative;
+	height: 100%;
+}
+
+.footer .panel .panel-body p {
+	font-size: 14px;
+	margin: .5em;
+}
+
+.page-top {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 14px;
+}
+
+.footer .bottom-block {
+	border-top: 1px solid #51611E;
+	text-align: center;
+}
+
+#map {
+	width: 300px;
+	height: 200px;
+}

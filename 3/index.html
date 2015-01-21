@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>法人設立手続なら　- 朽木行政法務事務所</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header container">
+		<div class="inner">
+			<div class="header-heading">
+				<h1>法人設立手続なら昭和61年創業の朽木行政法務事務所へ</h1>
+			</div>
+			<div class="header-body">
+				
+			</div>
+		</div>	
+	</div>
+	<div class="navigation">
+		<div class="inner">
+			<ul class="nav">
+				<li>
+					<a href="">事務所のご案内</a>
+				</li>
+				<li>
+					<a href="">料金お見積り例</a>
+				</li>
+				<li>
+					<a href="">ご依頼の流れ</a>
+				</li>
+				<li>
+					<a href="">お客様の声</a>
+				</li>
+				<li>
+					<a href="">よくあるご質問</a>
+				</li>
+				<li>
+					<a href="">無料ご相談</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="inner">
+			<div class="sidebar">
+				<div class="content">
+					<h2>メニュー</h2>
+					<ul>
+						<li><i class="fa fa-caret-right"></i><a href="">メニュー1</a></li>
+						<li><i class="fa fa-caret-right"></i><a href="">メニュー2</a></li>
+						<li><i class="fa fa-caret-right"></i><a href="">メニュー3</a></li>
+						<li><i class="fa fa-caret-right"></i><a href="">メニュー4</a></li>
+						<li><i class="fa fa-caret-right"></i><a href="">メニュー5</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="contents">
+				<div class="content"></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="inner">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						事務所へのアクセス
+					</h3>
+				</div>
+				<div class="panel-body">
+					<p>横浜市中区長者町5-75-1-202(城南信金2F)</p>
+					<p>JR関内駅から徒歩５分</p>
+					<p>営業時間　月曜日～金曜日 午前9時～午後6時</p>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">地図</h3>
+				</div>
+				<div class="panel-body">
+					<div id="map">
+					</div>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="panel-body">
+					<div class="page-top"><i class="fa fa-arrow-circle-up"></i><span>このページのTOPへ戻る</span></div>
+				</div>
+			</div>
+			<div style="float: none; clear: both;"></div>
+			<div class="bottom-block">
+				<p>Copyright © 朽木行政法務事務所 2016 All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	window.onload = function(){
+		var latlng = new google.maps.LatLng(35.44209, 139.63196);
+		var map = new google.maps.Map(document.getElementById('map'), 
+			{center: latlng,
+				zoom: 13, mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
+		);
+		var maeker = new google.maps.Marker({
+			map: map,
+			animation: google.maps.Animation.DROP,
+			position: latlng
+		});
+	};
+	</script>
+</body>
+</html>
