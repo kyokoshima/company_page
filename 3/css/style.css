@@ -5,11 +5,12 @@ color
 #AFC46A
 #81963D
 #51611E
-#51611E
+#EE6630
 */
 
 * {
 	margin: 0;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 .clearfix:after {
@@ -51,6 +52,17 @@ color
 	float: right;
 }
 
+.inquiry .btn-inquiry {
+	background: url(../img/btn-inquiry.gif) no-repeat left top;
+	width: 200px;
+	height: 40px;
+	display: block;
+}
+
+.inquiry .btn-inquiry:hover {
+	background-position: left bottom;
+}
+
 .navigation {
 	border-top: 1px solid #333;
 }
@@ -89,6 +101,7 @@ ul.nav li a:hover {
 
 .sidebar {
 	width: 25%;
+	float: right;
 }
 
 .sidebar .content h2 {
@@ -130,6 +143,30 @@ ul.nav li a:hover {
 
 .main .contents {
 	width: 65%;
+	float: left;
+}
+
+.main .contents .content h2 {
+	/*background: #51611E;*/
+	color: #51611E;
+	border-bottom: 1px solid #D6E99A;
+	border-left: 10px solid #D6E99A;
+	font-size: 14px;
+	padding: 10px;
+/*#81963D*/
+/*#D6E99A
+#AFC46A
+#81963D
+#51611E
+#EE6630*/
+}
+
+.main .contents .content h2 i {
+	margin-right: 5px;
+}
+
+.main .contents .content p {
+	padding: 20px 10px;
 }
 
 .footer {
