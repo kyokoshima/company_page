@@ -1,0 +1,59 @@
+/*
+http://www.colourlovers.com/palette/623761/Walking_Away
+#F6F6F6
+#E8E8E8
+#333333
+#990100
+#B90504
+*/
+
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+.inner {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.top-header {
+	background: #990100;
+}
+
+.top-header h1 {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	color: #F6F6F6;
+	padding: 7px 5px;
+}
+
+.navigation {
+	background: #E8E8E8;
+}
+.navigation ul {
+	list-style: none;
+	text-align: center;
+}
+
+.navigation ul li {
+	display: inline-block;
+}
+
+.footer {
+	background: #990100;
+}
+
+.footer-panel {
+	display: inline-block;
+	vertical-align: top;
+	color: #F6F6F6;
+}
+
+address {
+	font-style: normal;
+}
