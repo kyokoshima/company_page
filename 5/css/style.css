@@ -1,14 +1,23 @@
 /*
-http://www.colourlovers.com/palette/623761/Walking_Away
-#F6F6F6
-#E8E8E8
-#333333
-#990100
-#B90504
+http://www.colourlovers.com/palette/867235/LoversInJapan
+#E94E77
+#D68189
+#C6A49A
+#C6E5D9
+#F4EAD5
 */
 
+* {
+	font-size: 14px;
+}
 body {
 	margin: 0;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
 }
 
 .container {
@@ -21,37 +30,125 @@ body {
 }
 
 .top-header {
-	background: #990100;
+	background: #F4EAD5;
 }
 
 .top-header h1 {
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
-	color: #F6F6F6;
+	color: #C6A49A;
 	padding: 7px 5px;
 }
 
+.header .logo {
+	display: inline-block;
+}
+
+.header .inquiry {
+	display: inline-block;
+	float: right;
+}
+
+.header .inquiry .tel {
+	display: inline-block;
+}
+
+.header .inquiry a.btn-mail {
+	display: inline-block;
+	background: url(../img/btn-mail.gif) no-repeat left top;
+	height: 35px;
+	width: 200px;
+}
+
+.header .inquiry .btn-mail:hover{
+	background-position: left bottom;
+}
+
 .navigation {
-	background: #E8E8E8;
+	background: #D68189;
 }
 .navigation ul {
 	list-style: none;
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 .navigation ul li {
 	display: inline-block;
 }
 
+.navigation ul li:hover {
+	background: #E94E77;
+}
+
+.navigation ul li a {
+	width: 130px;
+	padding: 20px 10px;
+	display: block;
+	text-decoration: none;
+	color: #F4EAD5;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.main .sidebar {
+	/*border: 5px solid #C6A49A;*/
+	width: 25%;
+	margin: 10px;
+	border-left: 1px solid #C6A49A;
+	float: left;
+}
+
+.main .sidebar .content h2 {
+	background: #F4EAD5;
+	margin: 0;
+	text-align: center;
+	padding: 12px;
+	color: #C6A49A;
+	border-bottom: 1px solid #C6A49A;
+}
+
+.main .sidebar .content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main .sidebar .content ul li {
+	border-bottom: 1px solid #ddd;
+}
+
+.main .sidebar .content ul li:hover {
+	background: #F4EAD5;
+}
+
+.main .sidebar .content ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 20px 10px;
+	color: #C6A49A;
+}
+
+.main .sidebar .content ul li a i {
+	margin-right: 10px;
+}
+
+.main .contents {
+	width: 65%;
+	float: right;
+}
+
+
 .footer {
-	background: #990100;
+	background: #F4EAD5;
 }
 
 .footer-panel {
 	display: inline-block;
 	vertical-align: top;
-	color: #F6F6F6;
+	color: #C6A49A;
 }
 
 address {
